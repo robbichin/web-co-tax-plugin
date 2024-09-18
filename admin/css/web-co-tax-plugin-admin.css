@@ -1,0 +1,62 @@
+.webco-intro {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 100px;
+    align-items: center;
+    margin: 40px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .webco-intro {
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.webco-intro img {
+    max-width: 100px;
+}
+
+.webco-intro p,
+.webco-howto-intro p{
+    font-size: 1.3em;
+}
+
+.webco-tax-form,
+.webco-tax-howto {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 10px;
+    font-size: 0.9em;
+}
+
+.webco-tax-form h2,
+.webco-tax-howto h2 {
+    padding: 8px 12px 12px 12px;
+}
+
+.webco-tax-form .inside p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.webco-tax-form .inside p label {
+    font-size: 1.2em;
+}
+
+.webco-tax-form p.submit {
+    align-self: center;
+    justify-self: center;
+    margin-top: unset;
+    padding-top: unset;
+}
+
+.webco-footer {
+    text-align: center;
+    margin: 40px 0;webco-footer
+}
+
+.webco-footer img {
+    max-width: 150px;
+}

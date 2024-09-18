@@ -1,0 +1,25 @@
+.tax-toggle-container svg {
+	height: 1em;
+	padding-right: 0.2em;
+	fill: currentColor;
+}
+.tax-toggle-container .toggle-taxes {
+	display: inline-flex !important;
+	align-items: center;
+	transition: 0.2s ease-in-out;
+}
+.woocommerce nav a.button.toggle-taxes {
+	color: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+}
+.tax-toggle-container.floating { position: fixed; z-index: 100; white-space: nowrap; }
+.tax-toggle-container.floating.top-left { top: 20px; left: 20px; }
+.tax-toggle-container.floating.top-right { top: 20px; right: 20px; }
+.tax-toggle-container.floating.bottom-left { bottom: 20px; left: 20px; }
+.tax-toggle-container.floating.bottom-right { bottom: 20px; right: 20px; }
+.tax-toggle-container.floating.top-center { top: 20px; right: 50%; -webkit-transform: translateX(50%); }
+.tax-toggle-container.floating.bottom-center { bottom: 20px; right: 50%; -webkit-transform: translateX(50%); }
+.tax-toggle-container.floating.center-left { left: 20px; top: 50%; -webkit-transform: translateY(-50%); }
+.tax-toggle-container.floating.center-right { right: 20px; top: 50%; -webkit-transform: translateY(-50%); }
+.web-co-vat-suffix { font-size: 0.9rem; }
